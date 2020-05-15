@@ -6,4 +6,4 @@ def hello():
     return "Hello World!"
 @app.route("/predict")
 def predict():
-    return {"Chave": 1}
+    return "Pagina 2"
