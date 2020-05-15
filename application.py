@@ -1,9 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/predict")
 def hello():
     return "Hello World!"
-@app.route("/predict")
-def predict():
-    return "Pagina 2"
