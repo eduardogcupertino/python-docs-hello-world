@@ -7,4 +7,4 @@ def hello():
 
 @app.route( '/predict', methods=['GET'])
 def predict():
-    return {'Chave': 1}
+    return {"Chave": 1}
